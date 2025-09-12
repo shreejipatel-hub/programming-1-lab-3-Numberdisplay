@@ -29,4 +29,14 @@ call the object's methods, such as increment and setValue.
 14)now that the condition uses ||(OR) so that it will be able to for example accept any negative number lets say -5 for example 
     becuase of the seconde condition that states replacementvalue<0 which means it wont be able to pass 1st condition but will will be able to pass this
     one since -5 is smaller compared to the limit.
-15) 
+16)(a && b) || (!a && !b) so if the first part of this boolean is true thats true and on the second part when  its false ! will 
+    negate it and thats what will make it true so at the end both will be true.
+17)(a && !b) || (!a && b)
+18) yes it returned a 3 digit value for me even when i did some research i says it shouldnt do that but it still is able to give me 3 digits number like 
+    800 as an result which i think is the result of the else block of the condition.
+19)no there is no diffrence in result in the 2 methods because at the end it just converts the int into a string and returns the value.
+20) the first result will be 12cat and second will be cat93 that is because the code is being read form left to right so when it was 9+3 before it added them
+    first where as when it was cat+9+3 it focused on cat+9 si the result came out cat93.
+
+
+
